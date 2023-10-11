@@ -1,0 +1,37 @@
+{
+  "placeholder": {
+    "fullName": "Nom et prénom",
+    "email": "E-mail",
+    "phoneNumber": "Numéro de téléphone",
+    "country": "Pays",
+    "occupation": "Profession",
+    "medicalCentre": "Centre médical",
+    "painPoint": "Partagez avec nous les défis auxquels vous êtes confrontés avec des produits similaires",
+    "benefit": "Partagez avec nous les avantages dont vous bénéficiez avec des produits similaires",
+    "touchPoint": "Partagez avec nous votre point de contact ou d'interaction",
+    "POV": "Dites ce que vous pensez du produit"
+  },
+  "pageContent": {
+    "hero": {
+      "title": "Explorez l'avenir des soins de santé numériques avec Omnihale",
+      "description": "Omnihale offre des soins transparents aux patients grâce à une planification avancée des rendez-vous, à la télémédecine et à un DSE de pointe. Investissez dans les solutions de santé de demain !",
+      "button": "Contactez-nous"
+    },
+    "details": {
+      "title": "Nous offrons",
+      "one": {
+        "title": "Planification de rendez-vous de patience",
+        "description": "Omnihale révolutionne la gestion hospitalière grâce à son système de planification de patients de pointe, permettant aux établissements de santé d'allouer stratégiquement des ressources pour des soins optimaux aux patients. Notre solution innovante rationalise non seulement l’afflux de patients, mais dispose également de fonctionnalités de rappel automatisées, atténuant considérablement les taux de non-présentation. Investissez dans Omnihale pour un mélange harmonieux d’efficacité et de technologie centrée sur le patient, garantissant une expérience transformatrice pour les prestataires de soins de santé et les patients."
+      },
+      "two": {
+        "title": "Télémédecine",
+        "description": "Omnihale révolutionne les soins de santé en proposant des solutions de télémédecine de pointe qui permettent aux prestataires de soins de santé d'étendre leurs services au-delà des frontières géographiques. Notre plateforme facilite non seulement des consultations virtuelles transparentes, mais garantit également un accès rapide à une expertise médicale spécialisée. Avec Omnihale, les soins de santé ne connaissent pas de frontières, offrant une portée mondiale aux prestataires et une voie rapide vers des soins spécialisés pour les patients. Rejoignez-nous pour façonner l’avenir de soins de santé accessibles et de haute qualité qui transcendent les contraintes géographiques."
+      },
+      "three": {
+        "title": "Dossiers de santé électroniques",
+        "description": "Entrez dans une nouvelle ère d'excellence en matière de soins de santé avec Omnihale, où nous présentons un système avancé de dossier de santé électronique (DSE) qui transcende les frontières traditionnelles. Notre technologie de pointe facilite une collaboration transparente entre les prestataires de soins de santé grâce à une mise en œuvre innovante d'une gouvernance partagée via la blockchain, garantissant un niveau inégalé de transparence, de confidentialité et de sécurité pour vos dossiers de santé électroniques. Faites confiance à Omnihale pour révolutionner la manière dont les professionnels de la santé interagissent avec et partagent les informations critiques sur les patients, garantissant ainsi un avenir où les soins de santé seront non seulement efficaces, mais également protégés avec la plus grande intégrité."
+      }
+    },
+    "button": "Partagez ce que vous pensez"
+  }
+}
