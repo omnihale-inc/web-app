@@ -35,21 +35,25 @@ const lang: Lang = langImport;
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
   const [currentLang, setCurrentLang] = useState(() => {
-    // Checks if the user has selected an option before
-    // deciding its initial state when the page loads.
-    // This help show the current language before the
-    // useEffect kicks in to improve user experience
-    const currentLangStore = window.localStorage.getItem('lang');
-    if (currentLangStore) return lang[currentLangStore];
+    if (typeof window !== 'undefined') {
+      // Checks if the user has selected an option before
+      // deciding its initial state when the page loads.
+      // This help show the current language before the
+      // useEffect kicks in to improve user experience
+      const currentLangStore = window.localStorage.getItem('lang');
+      if (currentLangStore) return lang[currentLangStore];
+    }
     return lang['en'];
   });
   const [optionSelect, setOptionSelect] = useState(() => {
-    // Checks if the user has selected an option before
-    // deciding its initial state when the page loads.
-    // This help show the current language before the
-    // useEffect kicks in to improve user experience
-    const optionSelectStore = window.localStorage.getItem('option-select');
-    if (optionSelectStore) JSON.parse(optionSelectStore);
+    if (typeof window !== 'undefined') {
+      // Checks if the user has selected an option before
+      // deciding its initial state when the page loads.
+      // This help show the current language before the
+      // useEffect kicks in to improve user experience
+      const optionSelectStore = window.localStorage.getItem('option-select');
+      if (optionSelectStore) JSON.parse(optionSelectStore);
+    }
     return {
       value: 'en',
       label: 'english',
