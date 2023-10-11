@@ -39,7 +39,7 @@ export default function Details(props: DetailsProps) {
       <DetailsItem
         heading={props.language.pageContent.details.three.title}
         description={props.language.pageContent.details.three.description}
-        image='/images/electronic health record.jpg'
+        image='/images/electronic-health-record.jpg'
         reverse={false}
       />
       <button
