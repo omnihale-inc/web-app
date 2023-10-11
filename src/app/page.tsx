@@ -1,16 +1,16 @@
-/* eslint-disable */
 'use client';
 
-import { useState, createContext, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Select from 'react-select';
 import { Caesar_Dressing } from 'next/font/google';
+import Image from 'next/image';
 
 import langImport from '@/lang/getLang';
 import options from '@/utilities/options';
 import Modal from '@/components/Modal';
 import ModalContents from '@/components/ModalContent';
 import HomeContents from '@/components/HomeContents';
-import Image from 'next/image';
+import LanguageContext from '@/context/LanguageContext';
 
 const caeserDressing = Caesar_Dressing({ subsets: ['latin'], weight: '400' });
 
@@ -32,8 +32,6 @@ type Lang = {
 
 const lang: Lang = langImport;
 
-export const LanguageContext = createContext(lang['en']);
-
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
   const [currentLang, setCurrentLang] = useState(() => {
@@ -41,7 +39,7 @@ export default function Home() {
     // deciding its initial state when the page loads.
     // This help show the current language before the
     // useEffect kicks in to improve user experience
-    const currentLangStore = localStorage.getItem('lang');
+    const currentLangStore = window.localStorage.getItem('lang');
     if (currentLangStore) return lang[currentLangStore];
     return lang['en'];
   });
@@ -50,7 +48,7 @@ export default function Home() {
     // deciding its initial state when the page loads.
     // This help show the current language before the
     // useEffect kicks in to improve user experience
-    const optionSelectStore = localStorage.getItem('option-select');
+    const optionSelectStore = window.localStorage.getItem('option-select');
     if (optionSelectStore) JSON.parse(optionSelectStore);
     return {
       value: 'en',
@@ -60,14 +58,14 @@ export default function Home() {
 
   useEffect(() => {
     // Preserves the user selected language between renders
-    const currentLangStore = localStorage.getItem('lang');
-    const optionSelectStore = localStorage.getItem('option-select');
+    const currentLangStore = window.localStorage.getItem('lang');
+    const optionSelectStore = window.localStorage.getItem('option-select');
     // Checks is the user has selected a language preference
     // then sets that language
     if (currentLangStore && optionSelectStore) {
       setCurrentLang(lang[currentLangStore]);
       setOptionSelect(JSON.parse(optionSelectStore));
-    } else localStorage.setItem('lang', 'en');
+    } else window.localStorage.setItem('lang', 'en');
   }, []);
 
   return (
