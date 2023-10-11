@@ -1,0 +1,37 @@
+{
+  "placeholder": {
+    "fullName": "Akokun Oruko",
+    "email": "Imeeli",
+    "phoneNumber": "Nomba fonu",
+    "country": "Orilẹ-ede",
+    "occupation": "Iṣẹ iṣe",
+    "medicalCentre": "Ile-iṣẹ iṣoogun",
+    "painPoint": "Pin pẹlu wa awọn italaya ti o n dojukọ pẹlu awọn ọja ti o jọra",
+    "benefit": "Pin pẹlu wa awọn anfani ti o ni pẹlu iru awọn ọja",
+    "touchPoint": "Pin pẹlu wa aaye olubasọrọ rẹ tabi ibaraenisepo",
+    "POV": "Sọ ohun ti o ro nipa ọja naa"
+  },
+  "pageContent": {
+    "hero": {
+      "title": "Ṣawari Ọjọ iwaju ti Itọju Ilera Digital pẹlu Omnihale",
+      "description": "Omnihale Pese Itọju Alaisan Ailopin nipasẹ Iṣeto Ipinnu Ilọsiwaju, Telemedicine, ati EHR gige-eti. Nawo ni Awọn solusan Ilera Ọla!",
+      "button": "Pe wa"
+    },
+    "details": {
+      "title": "A Pese",
+      "one": {
+        "title": "Iṣeto ipinnu lati pade Suuru",
+        "description": "Omnihale ṣe iyipada iṣakoso ile-iwosan nipasẹ eto ṣiṣe eto alaisan gige-eti, fifi agbara fun awọn ile-iṣẹ ilera lati pin awọn orisun ilana fun itọju alaisan to dara julọ. Ojutu imotuntun wa kii ṣe ṣiṣan ṣiṣan ti awọn alaisan nikan ṣugbọn o tun ṣogo awọn ẹya olurannileti adaṣe, dinku ni pataki awọn oṣuwọn ifihan-afihan. Ṣe idoko-owo ni Omnihale fun idapọ ailẹgbẹ ti ṣiṣe ati imọ-ẹrọ-centric alaisan, ni idaniloju iriri iyipada fun awọn olupese ilera mejeeji ati awọn alaisan bakanna."
+      },
+      "two": {
+        "title": "Awọn oogun oogun",
+        "description": "Omnihale ṣe iyipada ilera ilera nipa jiṣẹ awọn solusan telemedicine gige-eti ti o fi agbara fun awọn olupese ilera lati faagun awọn iṣẹ wọn kọja awọn aala agbegbe. Syeed wa kii ṣe irọrun awọn ijumọsọrọ foju alailẹgbẹ ṣugbọn tun ṣe idaniloju iraye si iyara si imọ-ẹrọ iṣoogun amọja. Pẹlu Omnihale, ilera ko mọ awọn aala, nfunni ni arọwọto agbaye fun awọn olupese ati ọna iyara si itọju amọja fun awọn alaisan. Darapọ mọ wa ni sisọ ọjọ iwaju ti iraye si, ilera didara to gaju ti o kọja awọn ihamọ agbegbe."
+      },
+      "three": {
+        "title": "Itanna Health Records",
+        "description": "Igbesẹ sinu akoko tuntun ti ilọsiwaju ilera pẹlu Omnihale, nibiti a ti ṣafihan eto Igbasilẹ Ilera Itanna ti ilọsiwaju (EHR) ti o kọja awọn aala ibile. Imọ-ẹrọ gige-eti wa n ṣe iranlọwọ ifowosowopo lainidi laarin awọn olupese ilera nipasẹ imuse imotuntun ti iṣakoso pinpin nipasẹ blockchain, n ṣe idaniloju ipele ti ko ni afiwe ti akoyawo, aṣiri, ati aabo fun awọn igbasilẹ ilera itanna rẹ. Gbẹkẹle Omnihale lati ṣe iyipada ọna ti awọn alamọdaju ilera ṣe n ṣiṣẹ pẹlu ati pin alaye alaisan to ṣe pataki, ni idaniloju ọjọ iwaju nibiti ilera kii ṣe daradara nikan ṣugbọn tun ni aabo pẹlu iduroṣinṣin to gaju."
+      }
+    },
+    "button": "Pin ohun ti o ro"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "placeholder": {
+    "fullName": "Full Name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "country": "Country",
+    "occupation": "Occupation",
+    "medicalCentre": "Medical Centre",
+    "painPoint": "Share with us the challenges you are facing with similar products",
+    "benefit": "Share with us the benefits you have with similar products",
+    "touchPoint": "Share with us your point of contact or interaction",
+    "POV": "Tell us what you think about the product"
+  },
+  "pageContent": {
+    "hero": {
+      "title": "Explore the Future of Digital Health Care with Omnihale",
+      "description": "Omnihale Delivers Seamless Patient Care through Advanced Appointment Scheduling, Telemedicine, and Cutting-edge EHR. Invest in Tomorrow's Health Solutions!",
+      "button": "Contact Us"
+    },
+    "details": {
+      "title": "We Offer",
+      "one": {
+        "title": "Patience Appointment Scheduling",
+        "description": "Omnihale revolutionizes hospital management through its cutting-edge patient scheduling system, empowering healthcare institutions to strategically allocate resources for optimal patient care. Our innovative solution not only streamlines the influx of patients but also boasts automated reminder features, significantly mitigating no-show rates. Invest in Omnihale for a seamless blend of efficiency and patient-centric technology, ensuring a transformative experience for both healthcare providers and patients alike."
+      },
+      "two": {
+        "title": "Telemedicine",
+        "description": "Omnihale revolutionizes healthcare by delivering cutting-edge telemedicine solutions that empower healthcare providers to extend their services beyond geographical boundaries. Our platform not only facilitates seamless virtual consultations but also ensures swift access to specialized medical expertise. With Omnihale, healthcare knows no borders, offering a global reach for providers and a rapid avenue to specialized care for patients. Join us in shaping the future of accessible, high-quality healthcare that transcends geographical constraints."
+      },
+      "three": {
+        "title": "Electronic Health Records",
+        "description": "Step into a new era of healthcare excellence with Omnihale, where we present an advanced Electronic Health Record (EHR) system that transcends traditional boundaries. Our cutting-edge technology facilitates seamless collaboration among healthcare providers through an innovative implementation of shared governance via blockchain, guaranteeing an unparalleled level of transparency, privacy, and security for your electronic health records. Trust Omnihale to revolutionize the way health professionals engage with and share critical patient information, ensuring a future where healthcare is not just efficient but also safeguarded with the utmost integrity."
+      }
+    },
+    "button": "Share what you think"
+  }
+}

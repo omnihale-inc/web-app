@@ -1,0 +1,37 @@
+{
+  "placeholder": {
+    "fullName": "Vollständiger Name",
+    "email": "Email",
+    "phoneNumber": "Telefonnummer",
+    "country": "Land",
+    "occupation": "Beruf",
+    "medicalCentre": "Medizinisches Zentrum",
+    "painPoint": "Teilen Sie uns die Herausforderungen mit, denen Sie bei ähnlichen Produkten gegenüberstehen",
+    "benefit": "Teilen Sie uns die Vorteile mit, die Sie mit ähnlichen Produkten haben",
+    "touchPoint": "Teilen Sie uns Ihren Kontakt- oder Interaktionspunkt mit",
+    "POV": "Sagen Sie, was Sie über das Produkt denken"
+  },
+  "pageContent": {
+    "hero": {
+      "title": "Entdecken Sie mit Omnihale die Zukunft der digitalen Gesundheitsversorgung",
+      "description": "Omnihale bietet nahtlose Patientenversorgung durch fortschrittliche Terminplanung, Telemedizin und modernste EHR. Investieren Sie in die Gesundheitslösungen von morgen!",
+      "button": "Kontaktiere uns"
+    },
+    "details": {
+      "title": "Wir bieten",
+      "one": {
+        "title": "Geduldige Terminplanung",
+        "description": "Omnihale revolutioniert das Krankenhausmanagement durch sein hochmodernes Patientenplanungssystem und ermöglicht es Gesundheitseinrichtungen, Ressourcen strategisch für eine optimale Patientenversorgung zuzuweisen. Unsere innovative Lösung rationalisiert nicht nur den Zustrom von Patienten, sondern verfügt auch über automatische Erinnerungsfunktionen, wodurch die Nichterscheinenquote erheblich gesenkt wird. Investieren Sie in Omnihale für eine nahtlose Mischung aus Effizienz und patientenzentrierter Technologie, die sowohl für Gesundheitsdienstleister als auch für Patienten ein transformatives Erlebnis gewährleistet."
+      },
+      "two": {
+        "title": "Telemedizin",
+        "description": "Omnihale revolutioniert das Gesundheitswesen durch die Bereitstellung modernster Telemedizinlösungen, die es Gesundheitsdienstleistern ermöglichen, ihre Dienstleistungen über geografische Grenzen hinaus auszudehnen. Unsere Plattform ermöglicht nicht nur nahtlose virtuelle Konsultationen, sondern gewährleistet auch einen schnellen Zugriff auf spezialisiertes medizinisches Fachwissen. Mit Omnihale kennt das Gesundheitswesen keine Grenzen und bietet Anbietern eine globale Reichweite und einen schnellen Zugang zu spezialisierter Versorgung für Patienten. Gestalten Sie gemeinsam mit uns die Zukunft einer zugänglichen, qualitativ hochwertigen Gesundheitsversorgung, die über geografische Grenzen hinausgeht."
+      },
+      "three": {
+        "title": "Elektronische Gesundheitsakten",
+        "description": "Betreten Sie mit Omnihale eine neue Ära der Exzellenz im Gesundheitswesen, wo wir ein fortschrittliches elektronisches Gesundheitsaktensystem (EHR) vorstellen, das traditionelle Grenzen überschreitet. Unsere hochmoderne Technologie erleichtert die nahtlose Zusammenarbeit zwischen Gesundheitsdienstleistern durch eine innovative Implementierung der gemeinsamen Governance über Blockchain und garantiert so ein beispielloses Maß an Transparenz, Datenschutz und Sicherheit für Ihre elektronischen Gesundheitsakten. Vertrauen Sie darauf, dass Omnihale die Art und Weise revolutioniert, wie medizinisches Fachpersonal mit wichtigen Patienteninformationen umgeht und diese teilt, und sorgt so für eine Zukunft, in der die Gesundheitsversorgung nicht nur effizient, sondern auch mit höchster Integrität geschützt ist."
+      }
+    },
+    "button": "Teilen Sie Ihre Meinung mit"
+  }
+}

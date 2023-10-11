@@ -1,0 +1,37 @@
+{
+  "placeholder": {
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "phoneNumber": "Número de teléfono",
+    "country": "País",
+    "occupation": "Ocupación",
+    "medicalCentre": "Centro Medico",
+    "painPoint": "Comparta con nosotros los desafíos que enfrenta con productos similares",
+    "benefit": "Comparte con nosotros los beneficios que tienes con productos similares",
+    "touchPoint": "Comparte con nosotros tu punto de contacto o interacción",
+    "POV": "Cuéntanos lo que piensas sobre el producto."
+  },
+  "pageContent": {
+    "hero": {
+      "title": "Explore el futuro de la atención médica digital con Omnihale",
+      "description": "Omnihale ofrece atención al paciente perfecta mediante programación avanzada de citas, telemedicina y EHR de última generación. ¡Invierta en las soluciones de salud del mañana!",
+      "button": "Contacta con nosotros"
+    },
+    "details": {
+      "title": "Nosotros Ofrecemos",
+      "one": {
+        "title": "Programación de citas con paciencia",
+        "description": "Omnihale revoluciona la gestión hospitalaria a través de su sistema de programación de pacientes de vanguardia, que permite a las instituciones de atención médica asignar recursos estratégicamente para una atención óptima al paciente. Nuestra innovadora solución no solo agiliza la afluencia de pacientes, sino que también cuenta con funciones de recordatorio automatizadas, lo que mitiga significativamente las tasas de inasistencia. Invierta en Omnihale para obtener una combinación perfecta de eficiencia y tecnología centrada en el paciente, garantizando una experiencia transformadora tanto para los proveedores de atención médica como para los pacientes."
+      },
+      "two": {
+        "title": "Telemedicina",
+        "description": "Omnihale revoluciona la atención médica al ofrecer soluciones de telemedicina de vanguardia que permiten a los proveedores de atención médica extender sus servicios más allá de las fronteras geográficas. Nuestra plataforma no solo facilita consultas virtuales fluidas, sino que también garantiza un acceso rápido a experiencia médica especializada. Con Omnihale, la atención médica no conoce fronteras y ofrece un alcance global para los proveedores y una vía rápida hacia la atención especializada para los pacientes. Únase a nosotros para dar forma al futuro de una atención médica accesible y de alta calidad que trascienda las limitaciones geográficas."
+      },
+      "three": {
+        "title": "Registros médicos electrónicos",
+        "description": "Ingrese a una nueva era de excelencia en la atención médica con Omnihale, donde presentamos un sistema avanzado de Historia Clínica Electrónica (EHR) que trasciende los límites tradicionales. Nuestra tecnología de vanguardia facilita una colaboración fluida entre los proveedores de atención médica a través de una implementación innovadora de gobernanza compartida a través de blockchain, garantizando un nivel incomparable de transparencia, privacidad y seguridad para sus registros médicos electrónicos. Confíe en Omnihale para revolucionar la forma en que los profesionales de la salud interactúan y comparten información crítica de los pacientes, garantizando un futuro en el que la atención médica no solo sea eficiente sino que también esté protegida con la máxima integridad."
+      }
+    },
+    "button": "Comparte lo que piensas"
+  }
+}
