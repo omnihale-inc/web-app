@@ -70,7 +70,7 @@ export default function Home() {
 
   return (
     <LanguageContext.Provider value={currentLang}>
-      <main className=''>
+      <main>
         {/* Header */}
         <div>
           <div className='md:flex justify-between mb-10 pt-6 lg:mb-20 max-w-[1250px] w-[90%] m-auto'>
@@ -124,12 +124,24 @@ export default function Home() {
             </div>
           </div>
           {/* Contents */}
-          <HomeContents onShowModal={setShowModal} />
+          <div
+            style={{
+              direction: optionSelect.label === 'arabic' ? 'rtl' : 'ltr',
+            }}
+          >
+            <HomeContents onShowModal={setShowModal} />
+          </div>
         </div>
         {showModal && (
-          <Modal>
-            <ModalContents onModalShow={setShowModal} />
-          </Modal>
+          <div
+            style={{
+              direction: optionSelect.label === 'arabic' ? 'rtl' : 'ltr',
+            }}
+          >
+            <Modal>
+              <ModalContents onModalShow={setShowModal} />
+            </Modal>
+          </div>
         )}
         <footer className='text-center bg-[#247e5b]/[.16] pt-3 pb-2'>
           &copy; Omnihale 2023
