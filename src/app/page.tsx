@@ -39,7 +39,7 @@ export default function Home() {
     // deciding its initial state when the page loads.
     // This help show the current language before the
     // useEffect kicks in to improve user experience
-    const currentLangStore = localStorage.getItem('lang');
+    const currentLangStore = window.localStorage.getItem('lang');
     if (currentLangStore) return lang[currentLangStore];
     return lang['en'];
   });
@@ -48,7 +48,7 @@ export default function Home() {
     // deciding its initial state when the page loads.
     // This help show the current language before the
     // useEffect kicks in to improve user experience
-    const optionSelectStore = localStorage.getItem('option-select');
+    const optionSelectStore = window.localStorage.getItem('option-select');
     if (optionSelectStore) JSON.parse(optionSelectStore);
     return {
       value: 'en',
@@ -58,14 +58,14 @@ export default function Home() {
 
   useEffect(() => {
     // Preserves the user selected language between renders
-    const currentLangStore = localStorage.getItem('lang');
-    const optionSelectStore = localStorage.getItem('option-select');
+    const currentLangStore = window.localStorage.getItem('lang');
+    const optionSelectStore = window.localStorage.getItem('option-select');
     // Checks is the user has selected a language preference
     // then sets that language
     if (currentLangStore && optionSelectStore) {
       setCurrentLang(lang[currentLangStore]);
       setOptionSelect(JSON.parse(optionSelectStore));
-    } else localStorage.setItem('lang', 'en');
+    } else window.localStorage.setItem('lang', 'en');
   }, []);
 
   return (
