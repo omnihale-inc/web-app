@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import { LanguageContext } from '@/app/page';
+import LanguageContext from '@/context/LanguageContext';
 import Hero from './Hero';
 import Details from './Details';
 

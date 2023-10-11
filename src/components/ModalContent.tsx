@@ -3,7 +3,7 @@ import { IconContext } from 'react-icons';
 import { IoMdClose } from 'react-icons/io';
 import { useContext } from 'react';
 
-import { LanguageContext } from '@/app/page';
+import LanguageContext from '@/context/LanguageContext';
 import Form from './Form';
 
 type ModalContentsProps = {

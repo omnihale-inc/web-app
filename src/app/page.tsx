@@ -1,16 +1,16 @@
-/* eslint-disable */
 'use client';
 
-import { useState, createContext, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Select from 'react-select';
 import { Caesar_Dressing } from 'next/font/google';
+import Image from 'next/image';
 
 import langImport from '@/lang/getLang';
 import options from '@/utilities/options';
 import Modal from '@/components/Modal';
 import ModalContents from '@/components/ModalContent';
 import HomeContents from '@/components/HomeContents';
-import Image from 'next/image';
+import LanguageContext from '@/context/LanguageContext';
 
 const caeserDressing = Caesar_Dressing({ subsets: ['latin'], weight: '400' });
 
@@ -31,8 +31,6 @@ type Lang = {
 };
 
 const lang: Lang = langImport;
-
-export const LanguageContext = createContext(lang['en']);
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
