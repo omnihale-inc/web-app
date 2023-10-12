@@ -13,6 +13,7 @@ type Lang = {
         three: { [index: string]: string };
       };
       button: string;
+      followUs: string;
     };
   };
 };

@@ -1,3 +1,6 @@
+import { IconContext } from 'react-icons';
+import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs';
+
 import DetailsItem from './DetailsItem';
 
 type DetailsProps = {
@@ -42,12 +45,14 @@ export default function Details(props: DetailsProps) {
         image='/images/electronic-health-record.jpg'
         reverse={false}
       />
-      <button
-        className='block w-[fit-context] m-auto mt-7 bg-[#247e5b] px-5 py-3 text-white rounded-md mb-10'
-        onClick={() => props.onShowModal(true)}
-      >
-        {props.language.pageContent.button} {'->'}
-      </button>
+      <IconContext.Provider value={{ size: '23px' }}>
+        <button
+          className='flex w-[fit-context] m-auto mt-7 bg-[#247e5b] px-5 py-3 text-white rounded-md mb-10'
+          onClick={() => props.onShowModal(true)}
+        >
+          {props.language.pageContent.button}
+        </button>
+      </IconContext.Provider>
     </div>
   );
 }

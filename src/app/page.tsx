@@ -26,6 +26,7 @@ type Lang = {
         three: { [index: string]: string };
       };
       button: string;
+      followUs: string;
     };
   };
 };
@@ -90,7 +91,7 @@ export default function Home() {
             </div>
             <div className='relative mb-7 md:mb-0'>
               <div className='md:flex md:justify-end text-sm md:text-md'>
-                <label htmlFor='language' className='mr-2 lg:mt-2'>
+                <label htmlFor='language' className='mr-2 lg:mt-[5%]'>
                   Choose Language
                 </label>
                 <Select
