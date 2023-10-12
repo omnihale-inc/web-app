@@ -78,7 +78,7 @@ export default function Home() {
       <main>
         {/* Header */}
         <div>
-          <div className='md:flex justify-between mb-10 pt-6 lg:mb-20 max-w-[1250px] w-[90%] m-auto'>
+          <div className='flex justify-between mb-10 pt-6 lg:mb-20 max-w-[1250px] w-[90%] m-auto'>
             <div className='flex justify-center md:justify-start items-center mb-6 text-3xl text-[#404040]'>
               <Image
                 src='/logo.png'
@@ -91,9 +91,6 @@ export default function Home() {
             </div>
             <div className='relative mb-7 md:mb-0'>
               <div className='md:flex md:justify-end text-sm md:text-md'>
-                <label htmlFor='language' className='mr-2 lg:mt-[5%]'>
-                  Choose Language
-                </label>
                 <Select
                   className='mt-2 md:mt-[0px]'
                   id='language'

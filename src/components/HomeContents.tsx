@@ -20,7 +20,7 @@ export default function HomeContents(props: HomeContentsProps) {
       {/* Social Icons */}
       <div className='max-w-[1250px] w-[90%] m-auto mt-12 lg:mt-20 mb-8 lg:mb-14 text-[#000000]/[.65]'>
         <IconContext.Provider value={{ size: '30px' }}>
-          <div className='flex'>
+          <div className='flex w-[fit-content] m-auto'>
             <h3 className='text-2xl px-2'>
               {LangConsumer.pageContent.followUs} |
             </h3>

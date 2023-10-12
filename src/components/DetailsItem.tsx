@@ -18,10 +18,11 @@ export default function DetailsItem(props: DetailsItemProp) {
         <h2 className='text-lg lg:text-4xl text-[#247e5b] md:text-center lg:text-left lg:w-[400px] mb-2 mt-7 lg:mt-0 leading-2'>
           {props.heading}
         </h2>
-        <p className='text-[15px] lg:text-lg leading-none w-[100%] md:text-center lg:text-left'>
+        <p className='text-[15px] lg:text-lg sm:leading-normal lg:leading-none w-[100%] md:text-center lg:text-left'>
           {props.description}
         </p>
       </div>
+      <div className='w-[40px]'></div>
       <Image
         src={props.image}
         width={500}
