@@ -17,7 +17,8 @@
     "react-intl": "^6.4.7",
     "react-phone-input-2": "^2.15.1",
     "react-select": "^5.7.7",
-    "react-select-country-list": "^2.2.3"
+    "react-select-country-list": "^2.2.3",
+    "resend": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "latest",

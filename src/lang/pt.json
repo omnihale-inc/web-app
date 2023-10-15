@@ -1,15 +1,18 @@
 {
-  "placeholder": {
-    "fullName": "Nome completo",
-    "email": "E-mail",
-    "phoneNumber": "Número de telefone",
-    "country": "País",
-    "occupation": "Ocupação",
-    "medicalCentre": "Centro médico",
-    "painPoint": "Compartilhe conosco os desafios que você enfrenta com produtos semelhantes",
-    "benefit": "Compartilhe conosco os benefícios que você tem com produtos semelhantes",
-    "touchPoint": "Compartilhe conosco seu ponto de contato ou interação",
-    "POV": "Diga o que você pensa sobre o produto"
+  "form": {
+    "placeholder": {
+      "fullName": "Nome completo",
+      "email": "E-mail",
+      "phoneNumber": "Número de telefone",
+      "country": "País",
+      "occupation": "Ocupação",
+      "medicalCentre": "Centro médico",
+      "painPoint": "Compartilhe conosco os desafios que você enfrenta com produtos semelhantes",
+      "benefit": "Compartilhe conosco os benefícios que você tem com produtos semelhantes",
+      "touchPoint": "Compartilhe conosco seu ponto de contato ou interação",
+      "POV": "Diga o que você pensa sobre o produto"
+    },
+    "submit": "enviar"
   },
   "pageContent": {
     "hero": {

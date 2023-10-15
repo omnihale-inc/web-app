@@ -1,15 +1,18 @@
 {
-  "placeholder": {
-    "fullName": "フルネーム",
-    "email": "Eメール",
-    "phoneNumber": "電話番号",
-    "country": "国",
-    "occupation": "職業",
-    "medicalCentre": "医療センター",
-    "painPoint": "同様の製品で直面している課題を私たちと共有してください",
-    "benefit": "類似製品による利点を共有してください",
-    "touchPoint": "あなたの連絡先ややり取りを私たちと共有してください",
-    "POV": "製品についてのご意見をお聞かせください"
+  "form": {
+    "placeholder": {
+      "fullName": "フルネーム",
+      "email": "Eメール",
+      "phoneNumber": "電話番号",
+      "country": "国",
+      "occupation": "職業",
+      "medicalCentre": "医療センター",
+      "painPoint": "同様の製品で直面している課題を私たちと共有してください",
+      "benefit": "類似製品による利点を共有してください",
+      "touchPoint": "あなたの連絡先ややり取りを私たちと共有してください",
+      "POV": "製品についてのご意見をお聞かせください"
+    },
+    "submit": "提出する"
   },
   "pageContent": {
     "hero": {

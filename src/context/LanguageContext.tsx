@@ -3,7 +3,7 @@ import { createContext } from 'react';
 
 type Lang = {
   [index: string]: {
-    placeholder: { [index: string]: string };
+    form: { placeholder: { [index: string]: string }; submit: string };
     pageContent: {
       hero: { [index: string]: string };
       details: {
