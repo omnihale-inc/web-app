@@ -10,7 +10,7 @@ type DetailsItemProp = {
 export default function DetailsItem(props: DetailsItemProp) {
   return (
     <div
-      className={`flex flex-col-reverse ${
+      className={`flex flex-col-reverse lg:min-h-[55vh] min-h-[50vh] ${
         props.reverse ? 'lg:flex-row-reverse' : 'lg:flex-row'
       } items-center justify-between mt-10 p-7 lg:p-0 bg-[#247e5b]/[.15] lg:bg-transparent rounded-lg mb-[50px] lg:mb-[100px]`}
     >
