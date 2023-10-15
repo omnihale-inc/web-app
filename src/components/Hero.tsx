@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Button from "./Elements/Button";
+
 type HeroProps = {
   language: {
     pageContent: {
@@ -25,12 +27,7 @@ export default function Hero(props: HeroProps) {
         <p className='text-center text-sm lg:text-xl max-w-[900px] w-[90%] m-auto mt-5'>
           {props.language.pageContent.hero.description}
         </p>
-        <button
-          className='block w-[fit-context] m-auto mt-7 bg-[#247e5b] px-5 py-3 text-white rounded-md'
-          onClick={() => (location.href = 'mailto:contact@omnihale.com')}
-        >
-          {props.language.pageContent.hero.button}
-        </button>
+        <Button text={props.language.pageContent.hero.button} handleClick={() => (location.href = 'mailto:contact@omnihale.com')}/>
       </div>
       <div className='w-[fit-content] m-auto'>
         <img
