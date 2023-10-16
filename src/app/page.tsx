@@ -145,7 +145,7 @@ export default function Home() {
             </div>
           </Modal>
         )}
-        <footer className='text-center bg-[#247e5b]/[.16] pt-3 pb-2'>
+        <footer className='text-center text-[] bg-[#247e5b]/[.16] pt-3 pb-2'>
           &copy; Omnihale 2023
         </footer>
       </main>
