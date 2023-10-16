@@ -2,6 +2,8 @@ import { IconContext } from 'react-icons';
 import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs';
 
 import DetailsItem from './DetailsItem';
+import { Butcherman } from 'next/font/google';
+import Button from './Elements/Button';
 
 type DetailsProps = {
   language: {
@@ -23,7 +25,7 @@ export default function Details(props: DetailsProps) {
   return (
     <div className='max-w-[1250px] w-[90%] m-auto mt-12 lg:mt-20'>
       <div className='mb-[70px]'>
-        <h2 className='text-center text-4xl font-semibold'>
+        <h2 className='text-center text-[#247e5b] text-4xl  font-semibold'>
           {props.language.pageContent.details.title}
         </h2>
       </div>
@@ -46,12 +48,7 @@ export default function Details(props: DetailsProps) {
         reverse={false}
       />
       <IconContext.Provider value={{ size: '23px' }}>
-        <button
-          className='flex w-[fit-context] m-auto mt-7 bg-[#247e5b] px-5 py-3 text-white rounded-md mb-10'
-          onClick={() => props.onShowModal(true)}
-        >
-          {props.language.pageContent.button}
-        </button>
+        <Button text={props.language.pageContent.button} handleClick={() => props.onShowModal(true)}/>
       </IconContext.Provider>
     </div>
   );
