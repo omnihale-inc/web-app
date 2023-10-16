@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { motion } from 'framer-motion'
-import Button from "./Elements/Button";
+import { motion } from 'framer-motion';
+import Button from './Elements/Button';
 import { staggerContainer, textVariant } from '@/utilities/motion';
 
 type HeroProps = {
@@ -21,23 +21,29 @@ type HeroProps = {
 export default function Hero(props: HeroProps) {
   return (
     <motion.div
-    variants={staggerContainer()}
-        initial="hidden"
-        whileInView="show"
-        viewport={{once: false, amount: 0.25}}
-     className='max-w-[1250px] w-[90%] m-auto'>
-      <motion.div
-        
-      >
+      variants={staggerContainer()}
+      initial='hidden'
+      whileInView='show'
+      viewport={{ once: true, amount: 0.25 }}
+      className='max-w-[1250px] w-[90%] m-auto'
+    >
+      <motion.div>
         <motion.h1
-         variants={textVariant(1)}
-         className='text-center text-xl lg:text-5xl max-w-[900px] w-[90%] m-auto text-[#247e5b] font-bold'>
+          variants={textVariant(1)}
+          className='text-center text-xl lg:text-5xl max-w-[900px] w-[90%] m-auto text-[#247e5b] font-bold'
+        >
           {props.language.pageContent.hero.title}
         </motion.h1>
-        <motion.p  variants={textVariant(1.1)} className='text-center text-sm lg:text-xl max-w-[900px] w-[90%] m-auto mt-5'>
+        <motion.p
+          variants={textVariant(1.1)}
+          className='text-center text-sm lg:text-xl max-w-[900px] w-[90%] m-auto mt-5'
+        >
           {props.language.pageContent.hero.description}
         </motion.p>
-        <Button text={props.language.pageContent.hero.button} handleClick={() => (location.href = 'mailto:contact@omnihale.com')}/>
+        <Button
+          text={props.language.pageContent.hero.button}
+          handleClick={() => (location.href = 'mailto:contact@omnihale.com')}
+        />
       </motion.div>
       <div className='w-[fit-content] m-auto duration-300'>
         <img
