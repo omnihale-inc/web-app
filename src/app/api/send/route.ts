@@ -1,13 +1,8 @@
 import { NextResponse, NextRequest } from 'next/server';
 import { Resend } from 'resend';
 import EmailTemplate from '@/components/EmailTemplate';
-import cors from 'cors';
 
 const resend = new Resend(process.env.Resend);
-
-export function middleware() {
-  cors({ origin: 'omnihale.com' });
-}
 
 export async function POST(req: NextRequest) {
   req.headers;
