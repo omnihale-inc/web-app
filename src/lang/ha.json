@@ -1,15 +1,18 @@
 {
-  "placeholder": {
-    "fullName": "Cikakken suna",
-    "email": "Imel",
-    "phoneNumber": "Lambar tarho",
-    "country": "Ƙasa",
-    "occupation": "Sana'a",
-    "medicalCentre": "Cibiyar Kiwon Lafiya",
-    "painPoint": "Raba mana ƙalubalen da kuke fuskanta tare da samfurori iri ɗaya",
-    "benefit": "Raba mana fa'idodin da kuke da su tare da samfuran iri ɗaya",
-    "touchPoint": "Raba mana wurin tuntuɓar ku ko hulɗar ku",
-    "POV": "Faɗa abin da kuke tunani game da samfurin"
+  "form": {
+    "placeholder": {
+      "fullName": "Cikakken suna",
+      "email": "Imel",
+      "phoneNumber": "Lambar tarho",
+      "country": "Ƙasa",
+      "occupation": "Sana'a",
+      "medicalCentre": "Cibiyar Kiwon Lafiya",
+      "painPoint": "Raba mana ƙalubalen da kuke fuskanta tare da samfurori iri ɗaya",
+      "benefit": "Raba mana fa'idodin da kuke da su tare da samfuran iri ɗaya",
+      "touchPoint": "Raba mana wurin tuntuɓar ku ko hulɗar ku",
+      "POV": "Faɗa abin da kuke tunani game da samfurin"
+    },
+    "submit": "sallama"
   },
   "pageContent": {
     "hero": {

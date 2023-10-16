@@ -1,16 +1,20 @@
 {
-  "placeholder": {
-    "fullName": "Vollständiger Name",
-    "email": "Email",
-    "phoneNumber": "Telefonnummer",
-    "country": "Land",
-    "occupation": "Beruf",
-    "medicalCentre": "Medizinisches Zentrum",
-    "painPoint": "Teilen Sie uns die Herausforderungen mit, denen Sie bei ähnlichen Produkten gegenüberstehen",
-    "benefit": "Teilen Sie uns die Vorteile mit, die Sie mit ähnlichen Produkten haben",
-    "touchPoint": "Teilen Sie uns Ihren Kontakt- oder Interaktionspunkt mit",
-    "POV": "Sagen Sie, was Sie über das Produkt denken"
+  "form": {
+    "placeholder": {
+      "fullName": "Vollständiger Name",
+      "email": "Email",
+      "phoneNumber": "Telefonnummer",
+      "country": "Land",
+      "occupation": "Beruf",
+      "medicalCentre": "Medizinisches Zentrum",
+      "painPoint": "Teilen Sie uns die Herausforderungen mit, denen Sie bei ähnlichen Produkten gegenüberstehen",
+      "benefit": "Teilen Sie uns die Vorteile mit, die Sie mit ähnlichen Produkten haben",
+      "touchPoint": "Teilen Sie uns Ihren Kontakt- oder Interaktionspunkt mit",
+      "POV": "Sagen Sie, was Sie über das Produkt denken"
+    },
+    "submit": "Einreichen"
   },
+
   "pageContent": {
     "hero": {
       "title": "Entdecken Sie mit Omnihale die Zukunft der digitalen Gesundheitsversorgung",

@@ -5,8 +5,9 @@ import { Josefin_Sans } from 'next/font/google';
 const josefinSans = Josefin_Sans({ subsets: ['latin'], weight: '400' });
 
 export const metadata: Metadata = {
-  title: 'Omnihale App',
-  description: 'Welcome to the Omnihale web application',
+  title: 'Omnihale | Telemedicine, EHR, patient appointment scheduling',
+  description:
+    'Transform health workflow with cutting-edge digital solutions. Streamline processes, boost efficiency, and gain real-time insights. Upgrade with us now!',
   icons: '/logo.svg',
 };
 

@@ -8,7 +8,10 @@ import Input from './Input';
 
 type FormProps = {
   language: {
-    placeholder: { [index: string]: string };
+    form: {
+      placeholder: { [index: string]: string };
+      submit: string;
+    };
   };
 };
 
@@ -25,6 +28,7 @@ export default function Form(props: FormProps) {
     touchPoint: '',
     POV: '',
   });
+  const [responseMessage, setResponseMessage] = useState('');
 
   const options: (string | GroupBase<string>)[] = useMemo(
     () => countryList().getData() as unknown as string[],
@@ -35,22 +39,63 @@ export default function Form(props: FormProps) {
     e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
-    console.log(name, value);
     setValues((values) => {
       return { ...values, [name]: value };
     });
   };
 
+  const submitFormHandler = () => {
+    const { email } = values;
+    const {
+      fullName,
+      phoneNumber,
+      country,
+      occupation,
+      medicalCentre,
+      painPoint,
+      benefit,
+      touchPoint,
+      POV,
+    } = values;
+    const bodyContents = {
+      email: email,
+      emailContents: {
+        fullName,
+        phoneNumber,
+        country,
+        occupation,
+        medicalCentre,
+        painPoint,
+        benefit,
+        touchPoint,
+        POV,
+      },
+    };
+    fetch('http://localhost:3000/api/send', {
+      method: 'POST',
+      body: JSON.stringify(bodyContents),
+    }).then(async (data) => {
+      const body = await data.json();
+      setResponseMessage(body.message);
+    });
+  };
+
   return (
-    <form action='' className='flex flex-wrap justify-between'>
+    <form
+      onSubmit={(e) => e.preventDefault()}
+      className='flex flex-wrap justify-between'
+    >
+      {responseMessage !== '' && (
+        <p className='bg-[green]'>{responseMessage}</p>
+      )}
       <Input
-        placeholder={props.language.placeholder.fullName}
+        placeholder={props.language.form.placeholder.fullName}
         name='fullName'
         value={values.fullName}
         onChange={formHandler}
       />
       <Input
-        placeholder={props.language.placeholder.email}
+        placeholder={props.language.form.placeholder.email}
         type='email'
         name='email'
         value={values.email}
@@ -58,7 +103,7 @@ export default function Form(props: FormProps) {
       />
       <Select
         required
-        placeholder={props.language.placeholder.country}
+        placeholder={props.language.form.placeholder.country}
         options={options}
         name='options'
         className=' rounded-lg block w-full m-2'
@@ -79,43 +124,46 @@ export default function Form(props: FormProps) {
         }}
       />
       <Input
-        placeholder={props.language.placeholder.occupation}
+        placeholder={props.language.form.placeholder.occupation}
         name='occupation'
         value={values.occupation}
         onChange={formHandler}
       />
       <Input
-        placeholder={props.language.placeholder.medicalCentre}
+        placeholder={props.language.form.placeholder.medicalCentre}
         name='medicalCentre'
         value={values.medicalCentre}
         onChange={formHandler}
       />
       <TextArea
         name='painPoint'
-        placeHolder={props.language.placeholder.painPoint}
+        placeHolder={props.language.form.placeholder.painPoint}
         value={values.painPoint}
         onChange={formHandler}
       />
       <TextArea
         name='benefit'
-        placeHolder={props.language.placeholder.benefit}
+        placeHolder={props.language.form.placeholder.benefit}
         value={values.benefit}
         onChange={formHandler}
       />
       <TextArea
         name='touchPoint'
-        placeHolder={props.language.placeholder.touchPoint}
+        placeHolder={props.language.form.placeholder.touchPoint}
         value={values.touchPoint}
         onChange={formHandler}
       />
       <TextArea
         name='POV'
-        placeHolder={props.language.placeholder.POV}
+        placeHolder={props.language.form.placeholder.POV}
         value={values.POV}
         onChange={formHandler}
       />
-      <button onClick={() => console.log(values)} className='bg-green'>
-        Submit
+      <button
+        className='w-[fit-context] m-auto mt-7 bg-[#247e5b] px-5 pt-3 pb-2 text-white rounded-md mb-10'
+        onClick={submitFormHandler}
+      >
+        {props.language.form.submit}
       </button>
     </form>
   );

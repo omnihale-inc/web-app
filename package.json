@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
+    "cors": "^2.8.5",
     "next": "latest",
     "react": "latest",
     "react-country-flag": "^3.1.0",
@@ -18,9 +19,11 @@
     "react-intl": "^6.4.7",
     "react-phone-input-2": "^2.15.1",
     "react-select": "^5.7.7",
-    "react-select-country-list": "^2.2.3"
+    "react-select-country-list": "^2.2.3",
+    "resend": "^1.1.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.14",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",

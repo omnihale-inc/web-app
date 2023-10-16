@@ -1,15 +1,18 @@
 {
-  "placeholder": {
-    "fullName": "Full Name",
-    "email": "Email",
-    "phoneNumber": "Phone number",
-    "country": "Country",
-    "occupation": "Occupation",
-    "medicalCentre": "Medical Centre",
-    "painPoint": "Share with us the challenges you are facing with similar products",
-    "benefit": "Share with us the benefits you have with similar products",
-    "touchPoint": "Share with us your point of contact or interaction",
-    "POV": "Tell us what you think about the product"
+  "form": {
+    "placeholder": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phoneNumber": "Phone number",
+      "country": "Country",
+      "occupation": "Occupation",
+      "medicalCentre": "Medical Centre",
+      "painPoint": "Share with us the challenges you are facing with similar products",
+      "benefit": "Share with us the benefits you have with similar products",
+      "touchPoint": "Share with us your point of contact or interaction",
+      "POV": "Tell us what you think about the product"
+    },
+    "submit": "submit"
   },
   "pageContent": {
     "hero": {

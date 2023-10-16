@@ -1,15 +1,18 @@
 {
-  "placeholder": {
-    "fullName": "Akokun Oruko",
-    "email": "Imeeli",
-    "phoneNumber": "Nomba fonu",
-    "country": "Orilẹ-ede",
-    "occupation": "Iṣẹ iṣe",
-    "medicalCentre": "Ile-iṣẹ iṣoogun",
-    "painPoint": "Pin pẹlu wa awọn italaya ti o n dojukọ pẹlu awọn ọja ti o jọra",
-    "benefit": "Pin pẹlu wa awọn anfani ti o ni pẹlu iru awọn ọja",
-    "touchPoint": "Pin pẹlu wa aaye olubasọrọ rẹ tabi ibaraenisepo",
-    "POV": "Sọ ohun ti o ro nipa ọja naa"
+  "form": {
+    "placeholder": {
+      "fullName": "Akokun Oruko",
+      "email": "Imeeli",
+      "phoneNumber": "Nomba fonu",
+      "country": "Orilẹ-ede",
+      "occupation": "Iṣẹ iṣe",
+      "medicalCentre": "Ile-iṣẹ iṣoogun",
+      "painPoint": "Pin pẹlu wa awọn italaya ti o n dojukọ pẹlu awọn ọja ti o jọra",
+      "benefit": "Pin pẹlu wa awọn anfani ti o ni pẹlu iru awọn ọja",
+      "touchPoint": "Pin pẹlu wa aaye olubasọrọ rẹ tabi ibaraenisepo",
+      "POV": "Sọ ohun ti o ro nipa ọja naa"
+    },
+    "submit": "fi silẹ"
   },
   "pageContent": {
     "hero": {

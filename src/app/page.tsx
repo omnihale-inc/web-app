@@ -16,7 +16,7 @@ const caeserDressing = Caesar_Dressing({ subsets: ['latin'], weight: '400' });
 
 type Lang = {
   [index: string]: {
-    placeholder: { [index: string]: string };
+    form: { placeholder: { [index: string]: string }; submit: string };
     pageContent: {
       hero: { [index: string]: string };
       details: {
@@ -135,15 +135,15 @@ export default function Home() {
           </div>
         </div>
         {showModal && (
-          <div
-            style={{
-              direction: optionSelect.label === 'arabic' ? 'rtl' : 'ltr',
-            }}
-          >
-            <Modal>
+          <Modal>
+            <div
+              style={{
+                direction: optionSelect.label === 'arabic' ? 'rtl' : 'ltr',
+              }}
+            >
               <ModalContents onModalShow={setShowModal} />
-            </Modal>
-          </div>
+            </div>
+          </Modal>
         )}
         <footer className='text-center text-[] bg-[#247e5b]/[.16] pt-3 pb-2'>
           &copy; Omnihale 2023
