@@ -6,6 +6,7 @@ import { BsLinkedin, BsTwitter } from 'react-icons/bs';
 import LanguageContext from '@/context/LanguageContext';
 import Hero from './Hero';
 import Details from './Details';
+import SocialLink from './Elements/SocialLink';
 
 type HomeContentsProps = {
   onShowModal: React.Dispatch<React.SetStateAction<boolean>>;
@@ -24,16 +25,9 @@ export default function HomeContents(props: HomeContentsProps) {
             <h3 className='text-2xl px-2'>
               {LangConsumer.pageContent.followUs} |
             </h3>
-            <a
-              href='https://www.linkedin.com/company/omnihale/'
-              target='_blank'
-            >
-              <BsLinkedin />
-            </a>
+            <SocialLink icon={<BsLinkedin/>} href='https://www.linkedin.com/company/omnihale/'/>
             <div className='w-3'></div>
-            <a href='https://twitter.com/omnihale' target='_blank'>
-              <BsTwitter />
-            </a>
+            <SocialLink icon={<BsTwitter />} href='https://twitter.com/omnihale'/>
           </div>
         </IconContext.Provider>
       </div>
