@@ -1,8 +1,6 @@
 import { IconContext } from 'react-icons';
-import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs';
 
 import DetailsItem from './DetailsItem';
-import { Butcherman } from 'next/font/google';
 import Button from './Elements/Button';
 
 type DetailsProps = {
@@ -48,7 +46,10 @@ export default function Details(props: DetailsProps) {
         reverse={false}
       />
       <IconContext.Provider value={{ size: '23px' }}>
-        <Button text={props.language.pageContent.button} handleClick={() => props.onShowModal(true)}/>
+        <Button
+          text={props.language.pageContent.button}
+          handleClick={() => props.onShowModal(true)}
+        />
       </IconContext.Provider>
     </div>
   );
