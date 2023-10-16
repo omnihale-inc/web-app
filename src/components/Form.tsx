@@ -76,6 +76,7 @@ export default function Form(props: FormProps) {
       body: JSON.stringify(bodyContents),
     }).then(async (data) => {
       const body = await data.json();
+      console.log(body);
       setResponseMessage(body.message);
     });
   };
