@@ -9,7 +9,7 @@ interface ButtonProps {
 const Button: FC<ButtonProps> = ({ text, handleClick }) => {
     return (
         <button
-            className='block w-[fit-context] m-auto mt-7 bg-[#247e5b] hover:bg-[#286b52] duration-300 px-5 py-3 text-white rounded-md'
+            className='block w-[fit-context] m-auto mt-7 bg-[#247e5b] hover:bg-[#286b52] hover:-rotate-6 duration-300 px-5 py-3 text-white rounded-md'
             onClick={handleClick}
         >
             {text}
