@@ -32,7 +32,7 @@
       },
       "three": {
         "title": "Itanna Health Records",
-        "description": "Igbesẹ sinu akoko tuntun ti ilọsiwaju ilera pẹlu Omnihale, nibiti a ti ṣafihan eto Igbasilẹ Ilera Itanna ti ilọsiwaju (EHR) ti o kọja awọn aala ibile. Imọ-ẹrọ gige-eti wa n ṣe iranlọwọ ifowosowopo lainidi laarin awọn olupese ilera nipasẹ imuse imotuntun ti iṣakoso pinpin nipasẹ blockchain, n ṣe idaniloju ipele ti ko ni afiwe ti akoyawo, aṣiri, ati aabo fun awọn igbasilẹ ilera itanna rẹ. Gbẹkẹle Omnihale lati ṣe iyipada ọna ti awọn alamọdaju ilera ṣe n ṣiṣẹ pẹlu ati pin alaye alaisan to ṣe pataki, ni idaniloju ọjọ iwaju nibiti ilera kii ṣe daradara nikan ṣugbọn tun ni aabo pẹlu iduroṣinṣin to gaju."
+        "description": "OmniHale duro jade bi iru ẹrọ oju opo wẹẹbu gige-eti ni ile-iṣẹ ilera, ni aibikita agbara ti FHIR (Awọn orisun Interoperability Healthcare Yara). Pẹlu ifaramo ailopin si ilọsiwaju interoperability, OmniHale n yi iyipada ala-ilẹ ti awọn igbasilẹ ilera elekitironi nipasẹ ipese imudara ati wiwo ore-olumulo fun awọn alamọdaju ilera. Syeed imotuntun yii nmu ọna modular FHIR ati idaniloju iyara ati aabo paṣipaarọ alaye ilera kọja awọn eto oriṣiriṣi."
       }
     },
     "button": "Pin ohun ti o ro",

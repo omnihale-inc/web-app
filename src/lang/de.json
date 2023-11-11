@@ -33,7 +33,7 @@
       },
       "three": {
         "title": "Elektronische Gesundheitsakten",
-        "description": "Betreten Sie mit Omnihale eine neue Ära der Exzellenz im Gesundheitswesen, wo wir ein fortschrittliches elektronisches Gesundheitsaktensystem (EHR) vorstellen, das traditionelle Grenzen überschreitet. Unsere hochmoderne Technologie erleichtert die nahtlose Zusammenarbeit zwischen Gesundheitsdienstleistern durch eine innovative Implementierung der gemeinsamen Governance über Blockchain und garantiert so ein beispielloses Maß an Transparenz, Datenschutz und Sicherheit für Ihre elektronischen Gesundheitsakten. Vertrauen Sie darauf, dass Omnihale die Art und Weise revolutioniert, wie medizinisches Fachpersonal mit wichtigen Patienteninformationen umgeht und diese teilt, und sorgt so für eine Zukunft, in der die Gesundheitsversorgung nicht nur effizient, sondern auch mit höchster Integrität geschützt ist."
+        "description": "OmniHale zeichnet sich als hochmoderne Webplattform in der Gesundheitsbranche aus und nutzt nahtlos die Leistungsfähigkeit von FHIR (Fast Healthcare Interoperability Resources). Mit einem unermüdlichen Engagement für die Weiterentwicklung der Interoperabilität verändert OmniHale die Landschaft elektronischer Gesundheitsakten, indem es eine dynamische und benutzerfreundliche Schnittstelle für medizinisches Fachpersonal bereitstellt. Diese innovative Plattform nutzt den modularen Ansatz von FHIR und gewährleistet einen schnellen und sicheren Austausch von Gesundheitsinformationen über verschiedene Systeme hinweg."
       }
     },
     "button": "Teilen Sie Ihre Meinung mit",

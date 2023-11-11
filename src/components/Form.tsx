@@ -71,7 +71,7 @@ export default function Form(props: FormProps) {
         POV,
       },
     };
-    fetch('http://localhost:3000/api/send', {
+    fetch('https://omnihale.com//api/send', {
       method: 'POST',
       body: JSON.stringify(bodyContents),
     }).then(async (data) => {

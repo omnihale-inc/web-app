@@ -32,7 +32,7 @@
       },
       "three": {
         "title": "Lantarki Lafiya Records",
-        "description": "Mataki zuwa sabon zamani na ingantaccen kiwon lafiya tare da Omnihale, inda muke gabatar da ingantaccen tsarin rikodin Lafiya na Lantarki (EHR) wanda ya ketare iyakokin gargajiya. Fasahar fasahar mu ta zamani tana sauƙaƙe haɗin kai maras kyau tsakanin masu ba da kiwon lafiya ta hanyar ingantaccen aiwatar da tsarin gudanarwa ta hanyar blockchain, yana ba da tabbacin matakin bayyana gaskiya, sirri, da tsaro ga bayanan lafiyar ku na lantarki. Amince da Omnihale don kawo sauyi kan yadda ƙwararrun kiwon lafiya ke hulɗa tare da raba mahimman bayanan marasa lafiya, tabbatar da makoma inda kiwon lafiya ba kawai yana da inganci ba amma kuma yana kiyaye shi tare da matuƙar gaskiya."
+        "description": "OmniHale ya fito waje a matsayin babban dandamalin gidan yanar gizo a cikin masana'antar kiwon lafiya, ba tare da ɓata lokaci ba yana ba da damar ikon FHIR (Ma'aikatar Kiwon Lafiya ta gaggawa). Tare da sadaukar da kai don haɓaka haɗin gwiwa, OmniHale yana canza yanayin bayanan lafiyar lantarki ta hanyar samar da ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun abokantaka ga ƙwararrun kiwon lafiya. Wannan sabon dandamali yana ba da damar tsarin tsarin FHIR kuma yana tabbatar da saurin musayar bayanan lafiya cikin sauri da aminci a cikin tsari daban-daban."
       }
     },
     "button": "Raba abin da kuke tunani",

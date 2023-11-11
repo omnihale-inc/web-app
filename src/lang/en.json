@@ -32,7 +32,7 @@
       },
       "three": {
         "title": "Electronic Health Records",
-        "description": "Step into a new era of healthcare excellence with Omnihale, where we present an advanced Electronic Health Record (EHR) system that transcends traditional boundaries. Our cutting-edge technology facilitates seamless collaboration among healthcare providers through an innovative implementation of shared governance via blockchain, guaranteeing an unparalleled level of transparency, privacy, and security for your electronic health records. Trust Omnihale to revolutionize the way health professionals engage with and share critical patient information, ensuring a future where healthcare is not just efficient but also safeguarded with the utmost integrity."
+        "description": "OmniHale stands out as a cutting-edge web platform in the healthcare industry, seamlessly leveraging the power of FHIR (Fast Healthcare Interoperability Resources). With a relentless commitment to advancing interoperability, OmniHale transforms the landscape of electronic health records by providing a dynamic and user-friendly interface for healthcare professionals. This innovative platform harnesses FHIR's modular approach, ensuring swift and secure exchange of healthcare information across disparate systems."
       }
     },
     "button": "Share what you think",

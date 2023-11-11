@@ -7,7 +7,7 @@ const resend = new Resend('re_5htDFkaa_EKmSx984TvZ3hnUJRsm7opg4');
 export async function POST(req: NextRequest) {
   const payload: { email: string; emailContents: string } = await req.json();
   try {
-    const data = await resend.emails.send({
+    const data = await resend.sendEmail({
       from: payload.email,
       to: 'contact@omnihale.com',
       subject: 'Feed Back',

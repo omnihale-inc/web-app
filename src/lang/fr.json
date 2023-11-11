@@ -32,7 +32,7 @@
       },
       "three": {
         "title": "Dossiers de santé électroniques",
-        "description": "Entrez dans une nouvelle ère d'excellence en matière de soins de santé avec Omnihale, où nous présentons un système avancé de dossier de santé électronique (DSE) qui transcende les frontières traditionnelles. Notre technologie de pointe facilite une collaboration transparente entre les prestataires de soins de santé grâce à une mise en œuvre innovante d'une gouvernance partagée via la blockchain, garantissant un niveau inégalé de transparence, de confidentialité et de sécurité pour vos dossiers de santé électroniques. Faites confiance à Omnihale pour révolutionner la manière dont les professionnels de la santé interagissent avec et partagent les informations critiques sur les patients, garantissant ainsi un avenir où les soins de santé seront non seulement efficaces, mais également protégés avec la plus grande intégrité."
+        "description": "OmniHale se distingue comme une plateforme Web de pointe dans le secteur de la santé, exploitant de manière transparente la puissance de FHIR (Fast Healthcare Interoperability Resources). Avec un engagement constant en faveur de l'avancement de l'interopérabilité, OmniHale change le paysage des dossiers de santé électroniques en fournissant une interface dynamique et conviviale aux professionnels de la santé. Cette plateforme innovante exploite l'approche modulaire de FHIR et garantit un échange rapide et sécurisé d'informations sur la santé entre différents systèmes."
       }
     },
     "button": "Partagez ce que vous pensez",
