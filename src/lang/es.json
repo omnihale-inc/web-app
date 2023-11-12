@@ -32,7 +32,7 @@
       },
       "three": {
         "title": "Registros médicos electrónicos",
-        "description": "Ingrese a una nueva era de excelencia en la atención médica con Omnihale, donde presentamos un sistema avanzado de Historia Clínica Electrónica (EHR) que trasciende los límites tradicionales. Nuestra tecnología de vanguardia facilita una colaboración fluida entre los proveedores de atención médica a través de una implementación innovadora de gobernanza compartida a través de blockchain, garantizando un nivel incomparable de transparencia, privacidad y seguridad para sus registros médicos electrónicos. Confíe en Omnihale para revolucionar la forma en que los profesionales de la salud interactúan y comparten información crítica de los pacientes, garantizando un futuro en el que la atención médica no solo sea eficiente sino que también esté protegida con la máxima integridad."
+        "description": "OmniHale se destaca como una plataforma web de vanguardia en la industria de la salud, que aprovecha a la perfección el poder de FHIR (Recursos rápidos de interoperabilidad en atención médica). Con un compromiso incesante para avanzar en la interoperabilidad, OmniHale está cambiando el panorama de los registros médicos electrónicos al proporcionar una interfaz dinámica y fácil de usar para los profesionales de la salud. Esta innovadora plataforma aprovecha el enfoque modular de FHIR y garantiza un intercambio rápido y seguro de información sanitaria entre diferentes sistemas."
       }
     },
     "button": "Comparte lo que piensas",

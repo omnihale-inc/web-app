@@ -2,12 +2,12 @@ import { NextResponse, NextRequest } from 'next/server';
 import { Resend } from 'resend';
 import EmailTemplate from '@/components/EmailTemplate';
 
-const resend = new Resend('re_5htDFkaa_EKmSx984TvZ3hnUJRsm7opg4');
+const resend = new Resend('re_5yRQ7UAQ_7xZ3JDyYdZzFWSSGNiCVtDM7');
 
 export async function POST(req: NextRequest) {
   const payload: { email: string; emailContents: string } = await req.json();
   try {
-    const data = await resend.sendEmail({
+    const data = await resend.emails.send({
       from: payload.email,
       to: 'contact@omnihale.com',
       subject: 'Feed Back',
