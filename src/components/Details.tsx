@@ -45,12 +45,6 @@ export default function Details(props: DetailsProps) {
         image='/images/electronic-health-record.jpg'
         reverse={false}
       />
-      <IconContext.Provider value={{ size: '23px' }}>
-        <Button
-          text={props.language.pageContent.button}
-          handleClick={() => props.onShowModal(true)}
-        />
-      </IconContext.Provider>
     </div>
   );
 }

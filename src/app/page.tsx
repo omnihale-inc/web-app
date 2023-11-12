@@ -7,8 +7,6 @@ import Image from 'next/image';
 
 import langImport from '@/lang/getLang';
 import options from '@/utilities/options';
-import Modal from '@/components/Modal';
-import ModalContents from '@/components/ModalContent';
 import HomeContents from '@/components/HomeContents';
 import LanguageContext from '@/context/LanguageContext';
 
@@ -134,17 +132,6 @@ export default function Home() {
             <HomeContents onShowModal={setShowModal} />
           </div>
         </div>
-        {showModal && (
-          <Modal>
-            <div
-              style={{
-                direction: optionSelect.label === 'arabic' ? 'rtl' : 'ltr',
-              }}
-            >
-              <ModalContents onModalShow={setShowModal} />
-            </div>
-          </Modal>
-        )}
         <footer className='text-center text-[] bg-[#247e5b]/[.16] pt-3 pb-2'>
           &copy; Omnihale 2023
         </footer>
