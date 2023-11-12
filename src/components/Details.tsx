@@ -1,5 +1,3 @@
-import { IconContext } from 'react-icons';
-
 import DetailsItem from './DetailsItem';
 import Button from './Elements/Button';
 
@@ -44,6 +42,10 @@ export default function Details(props: DetailsProps) {
         description={props.language.pageContent.details.three.description}
         image='/images/electronic-health-record.jpg'
         reverse={false}
+      />
+      <Button
+        text={props.language.pageContent.hero.button}
+        handleClick={() => (location.href = 'mailto:contact@omnihale.com')}
       />
     </div>
   );
