@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "framer-motion": "^10.16.4",
     "cors": "^2.8.5",
+    "framer-motion": "^10.16.4",
     "next": "latest",
+    "nodemailer": "^6.9.7",
     "react": "latest",
     "react-country-flag": "^3.1.0",
     "react-dom": "latest",
