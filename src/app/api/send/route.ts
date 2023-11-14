@@ -8,10 +8,13 @@ export async function POST(req: NextRequest) {
   const payload: { email: string; emailContents: string } = await req.json();
   try {
     const data = await resend.emails.send({
-      from: payload.email,
-      to: 'contact@omnihale.com',
+      from: 'feedback@omnihale.com',
+      to: 'omnihaleinc@gmail.com',
       subject: 'Feed Back',
-      react: EmailTemplate({ emailContents: payload.emailContents }),
+      react: EmailTemplate({
+        emailContents: payload.emailContents,
+        email: payload.email,
+      }),
     });
 
     return NextResponse.json({ message: 'sent', data });
