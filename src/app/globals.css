@@ -28,3 +28,12 @@
     background: transparent;
   }
 }
+
+h2::selection {
+  background-color: rgba(37, 126, 92, 0.7);
+  color: #000;
+}
+
+p::selection {
+  background-color: rgba(37, 126, 92, 0.7);
+}
