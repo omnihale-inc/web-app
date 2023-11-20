@@ -21,13 +21,13 @@ export default function DetailsItem(props: DetailsItemProp) {
     >
       <div className='lg:w-[650px] flex flex-col gap-4 lg:gap-6'>
         <motion.h2
-          variants={fadeIn('up', 'tween', 0.2, 1)}
+          variants={fadeIn('up', 'tween', 0.01, 0.5)}
           className='text-lg lg:text-4xl text-[#247e5b] md:text-center lg:text-left lg:w-[400px] mb-2 mt-7 lg:mt-0 leading-5'
         >
           {props.heading}
         </motion.h2>
         <motion.p
-          variants={fadeIn('up', 'tween', 0.3, 1)}
+          variants={fadeIn('up', 'tween', 0.02, 0.5)}
           className='text-[15px] lg:text-lg sm:leading-normal w-[100%] md:text-center lg:text-left leading-5 lg:leading-6'
         >
           {props.description}
@@ -35,7 +35,7 @@ export default function DetailsItem(props: DetailsItemProp) {
       </div>
       <div className='w-[40px]'></div>
       <motion.img
-        variants={fadeIn('up', 'tween', 0.1, 1)}
+        variants={fadeIn('up', 'tween', 0.02, 0.5)}
         src={props.image}
         alt={props.image.split('/')[2].split('.')[0]} //returns the name of image from image url
         className='rounded-lg'

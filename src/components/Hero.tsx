@@ -29,13 +29,13 @@ export default function Hero(props: HeroProps) {
     >
       <motion.div>
         <motion.h1
-          variants={textVariant(1)}
+          variants={textVariant(0.05)}
           className='text-center text-xl lg:text-5xl max-w-[900px] w-[90%] m-auto text-[#247e5b] font-bold'
         >
           {props.language.pageContent.hero.title}
         </motion.h1>
         <motion.p
-          variants={textVariant(1.1)}
+          variants={textVariant(0.1)}
           className='text-center text-sm lg:text-xl max-w-[900px] w-[90%] m-auto mt-5'
         >
           {props.language.pageContent.hero.description}
